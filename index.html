@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OL4-WADA</title>
-</head>
-<body>
-    <h1>Welcome</h1>
-</body>
+    <head>
+        <title>Chat NodeJS App</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <script src="./scripts/jquery.js"></script>
+        <script>
+            $(document).ready(()=>{
+                $('#trigger').click(()=>{
+                
+                    $('#nav').toggleClass('responsive');
+                });
+            })
+        </script>
+    </head>
+    <body>
+        <nav id="nav">
+            
+            <a href="./index.html" class="brand">Quiz Online</a>
+            <a href="javascript:void(0)" class="icon"><i class="fa fa-bars" id="trigger"></i></a>
+            <a href="./index.html">Home</a>
+           
+            
+        </nav>
+        <div class="card ">
+            <div class="card-content">
+              <span class="card-title">ACSL Online Quiz System</span>
+              <p>To assess trainees' progess and undestanding of lessons</p>
+              <p>Used for internal use only</p>
+            </div>
+           
+          </div>
+          
+          <div class="quiz-card">
+              <div class="quiz-card-title">Module 01: CF Quiz</div>
+              <div class="quiz-card-content">
+                  <ul class="quiz-list">
+                      <li class="quiz-list-item">
+                          <span class="index">01</span>
+                          <div class="link">
+                              
+                              
+                              <span class="quiz-details">Covers the part of the Competency unit <strong>STC WADA CF-101</strong> DAG ouline  under class sequence #01 </span>
+                              <span class="quiz-date badge badge-pill" >Mar 14, 2021</span>
+                          </div>
+                          <a href="./CF01/index.html" class="start" >Try it </a>
+                        </li>
+                        <li class="quiz-list-item">
+                            <span class="index">02</span>
+                            <div class="link">
+                                
+                                
+                                <span class="quiz-details">Covers the part of the Competency unit <strong>STC WADA CF-101</strong> DAG ouline  under class sequence #02 </span>
+                                <span class="quiz-date badge badge-pill" >Mar 17, 2021</span>
+                            </div>
+                            <a href="./CF02/index.html" class="start" >Try it </a>
+                          </li>
+                        
+                  </ul>
+              </div>
+          </div>
+    </body>
 </html>
