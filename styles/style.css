@@ -122,6 +122,7 @@ nav  a.icon{
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+    
  
 }
 .quiz-list-item .index
@@ -132,10 +133,9 @@ nav  a.icon{
   text-align: center;
   line-height: 30px;
   padding: 0.75rem 1.25rem;
- 
+ margin: -1px;
   color: white;
-  margin-top: -1px;
-  margin-bottom: 0;
+  
   border-bottom: 1px solid rgba(0,0,0,.125);
   
 }
