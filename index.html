@@ -1,63 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Online Quiz App</title>
-        <link rel="stylesheet" href="./styles/style.css">
-        <script src="./scripts/jquery.js"></script>
-        <script>
-            $(document).ready(()=>{
-                $('#trigger').click(()=>{
-                
-                    $('#nav').toggleClass('responsive');
-                });
-            })
-        </script>
-    </head>
-    <body>
-        <nav id="nav">
-            
-            <a href="./index.html" class="brand">Quiz Online</a>
-            <a href="javascript:void(0)" class="icon"><i class="fa fa-bars" id="trigger"></i></a>
-            <a href="./index.html">Home</a>
-           
-            
-        </nav>
-        <div class="card ">
-            <div class="card-content">
-              <span class="card-title">ACSL Online Quiz System</span>
-              <p>To assess trainees' progess and undestanding of lessons</p>
-              <p>Used for internal use only</p>
-            </div>
-           
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>ACSL: Online Quiz Application</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/metro-all.css" />
+    <link rel="stylesheet" href="./css/metro-colors.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      data-role="appbar"
+      data-expand-point="md"
+      class="bg-white fg-black border-bottom bd-lightGray py-2"
+    >
+      <button type="button" class="hamburger menu-down dark">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <a href="#" class="brand no-hover">
+        <span
+          style="width: 150px"
+          class="text-center border bd-gray border-radius bg-white fg-black"
+        >
+          quiz<sup>AT</sup> online
+        </span>
+      </a>
+
+      <ul class="app-bar-menu">
+        <li><a href="./index.html">Home</a></li>
+        
+        <li><a href="./howto.html">How to</a></li>
+        
+      </ul>
+    </div>
+    <div class="container-fluid mt-4">
+      <div class="card mx-auto" style="width: 87.5%">
+        <div class="card-header ribbed-darkTeal fg-white">
+          <div class="title">quiz<sup>AT</sup> online</div>
+          <div class="subtitle">online assessment system</div>
+        </div>
+        <div class="card-content p-4">
           
-          <div class="quiz-card">
-              <div class="quiz-card-title">Module 01: CF Quiz</div>
-              <div class="quiz-card-content">
-                  <ul class="quiz-list">
-                      <li class="quiz-list-item">
-                          <span class="index">01</span>
-                          <div class="link">
-                              
-                              
-                              <span class="quiz-details">Covers the part of the Competency unit <strong>STC WADA CF-101</strong> DAG ouline  under class sequence #01 </span>
-                              <span class="quiz-date badge badge-pill" >Mar 14, 2021</span>
-                          </div>
-                          <a href="./CF01/index.html" class="start" >Try it </a>
-                        </li>
-                        <li class="quiz-list-item">
-                            <span class="index">02</span>
-                            <div class="link">
-                                
-                                
-                                <span class="quiz-details">Covers the part of the Competency unit <strong>STC WADA CF-101</strong> DAG ouline  under class sequence #02 </span>
-                                <span class="quiz-date badge badge-pill" >Mar 17, 2021</span>
-                            </div>
-                            <a href="./CF02/index.html" class="start" >Try it </a>
-                          </li>
-                        
-                  </ul>
-              </div>
-          </div>
-    </body>
+          <p>
+            Used for tracking trainees' progress and understanding of lesson. If you are here for the first time, please see the <span class="text-bold">How to</span> video
+          </p>
+         </div>
+        <!-- <div class="card-footer">Card Footer</div> -->
+      </div>
+      <div class="icon-box border bd-default mx-auto" style="width: 87.5%">
+        <div class="icon bg-green fg-white"><span class="mif-dashboard"></span></div>
+        <div class="content p-4">
+         
+          <div class="title">Quiz dashboard</div>
+          <div class="subtitle mt-2"><sup>ol</sup>web apllications development <small>using asp.net</small> [04]</div>
+        </div>
+      </div>
+
+      <div class="card mx-auto" style="width: 87.5%">
+        <div class="card-header bg-olive fg-white" id="OL-WADA-04-card-header">
+          <!-- <div class="title">computer fundamental</div>
+        <div class="subtitle">module 01</div> -->
+        </div>
+        <div class="card-content p-4" id="OL-WADA-04-card-content"></div>
+        <!-- <div class="card-footer">Card Footer</div> -->
+      </div>
+    </div>
+
+    <script src="./js/metro.js"></script>
+    <script>
+      $.json("data/data.json").then(function (data) {
+        console.log(data); // this is json object
+        data.forEach((v, i) => {
+          console.log(v.title, v.round);
+          let q = v.quizzes.filter((x) => x.module == "01");
+          if (q.length > 0) {
+            let d1 = $(`<div>${v.title} <sup>${v.round}</sup> quiz</div>`, {
+              class: "title",
+            });
+            let d2 = $(`<div>module ${v.quizzes[0].module}</div>`, {
+              class: "subtitle",
+            });
+            console.log($(`div#${v.batch}-card-header`));
+            console.log(q);
+            d1.appendTo($(`div#${v.batch}-card-header`));
+            d2.appendTo($(`div#${v.batch}-card-header`));
+            let ql = $("<ol>", { class: "ql" });
+            q.forEach((x, i) => {
+              let li = $("<li>", { class: "ql-li" });
+              let num = $(`<span>${x.no}</span>`, { class: "num fg-crimson" });
+              let date = $(`<span>${x.date}</span>`, {
+                class: "date bg-olive fg-white",
+              });
+              let detail = $(`<span>${x.coverage}</span>`, { class: "detail" });
+              let action = $(`<a></a>`, {
+                class: "action ribbed-crimson fg-white",
+                href: `${x.folder}`,
+              });
+              let t = $(`<span>Try</span>`);
+              let ar = $(`<i></i>`, { class: "mif-chevron-right mif-3x" });
+              t.appendTo(action);
+              ar.appendTo(action);
+              num.appendTo(li);
+              date.appendTo(li);
+              detail.appendTo(li);
+              action.appendTo(li);
+              li.appendTo(ql);
+            });
+            ql.appendTo($(`div#${v.batch}-card-content`));
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
