@@ -4,7 +4,8 @@
                 {"module": "01", "no": 1, "date": "Mar 14, 2021", "coverage":"Hardware Concepts to Network Types", "folder":"M1/CF01" },
                 {"module": "01", "no":2, "date": "Mar 16, 2021", "coverage":"Data Transfer to virues", "folder":"M1/CF02" },
                 {"module": "01", "no": 3, "date": "Mar 18, 2021", "coverage":"WINDOWS 10 Foundation" , "folder":"M1/CF03"},
-                {"module": "01", "no": 4, "date": "May 13, 2021", "coverage":"MS Excel 2016 Whole conetent" , "folder":"M1/CF04"}
+                {"module": "01", "no": 4, "date": "May 13, 2021", "coverage":"MS Excel 2016 Whole conetent" , "folder":"M1/CF04"},
+                {"module": "01", "no": 5, "date": "May 14, 2021", "coverage":"The Internet Whole conetent" , "folder":"M1/CF05"}
         ]
     }
     
