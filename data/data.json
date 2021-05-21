@@ -8,7 +8,8 @@
                 {"module": "01", "no": 5, "date": "May 14, 2021", "coverage":"The Internet Whole content" , "folder":"M1/CF05"},
                 {"module": "01", "no": 6, "date": "May 17, 2021", "coverage":"The Whole content" , "folder":"M1/CF06"},
                 {"module": "01", "no": 7, "date": "May 17, 2021", "coverage":"MS Excel 2016 Whole content" , "folder":"M1/CF07"},
-                {"module": "01", "no": 8, "date": "May 19, 2021", "coverage":"Whole syllabus" , "folder":"M1/CF08"}
+                {"module": "01", "no": 8, "date": "May 19, 2021", "coverage":"Whole syllabus" , "folder":"M1/CF08"},
+                {"module": "01", "no": 9, "date": "May 21, 2021", "coverage":"Preparator: Whole syllabus" , "folder":"M1/CF09"}
         ]
     }
     
