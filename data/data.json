@@ -11,7 +11,8 @@
                 {"module": "01", "no": 8, "date": "May 19, 2021", "coverage":"Whole syllabus" , "folder":"M1/CF08"},
                 {"module": "01", "no": 9, "date": "May 21, 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M1/CF09"},
                 {"module": "01", "no": 10, "date": "May 22 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M1/CF10"},
-                {"module": "01", "no": 11, "date": "May 22 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M1/CF11"}
+                {"module": "01", "no": 11, "date": "May 22 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M1/CF11"},
+                {"module": "01", "no": 12, "date": "May 22 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M1/CF12"}
         ]
     }
     
