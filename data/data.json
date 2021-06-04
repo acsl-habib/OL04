@@ -17,7 +17,8 @@
                 {"module": "01", "no": 14, "date": "May 22 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M1/CF14"},
                 {"module": "02", "no": 1, "date": "Jun 01 2021", "coverage":"Retrieve data from a single table" , "folder":"M2/SQL01"},
                 {"module": "02", "no": 2, "date": "Jun 02 2021", "coverage":"Retrieve data from two or more tables" , "folder":"M2/SQL02"},
-                {"module": "02", "no": 3, "date": "Jun 03 2021", "coverage":"Summary queries" , "folder":"M2/SQL03"}
+                {"module": "02", "no": 3, "date": "Jun 03 2021", "coverage":"Summary queries" , "folder":"M2/SQL03"},
+                {"module": "02", "no": 4, "date": "Jun 04 2021", "coverage":"Insert, update and delete data" , "folder":"M2/SQL04"}
         ]
     }
     
