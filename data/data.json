@@ -18,7 +18,8 @@
                 {"module": "02", "no": 1, "date": "Jun 01 2021", "coverage":"Retrieve data from a single table" , "folder":"M2/SQL01"},
                 {"module": "02", "no": 2, "date": "Jun 02 2021", "coverage":"Retrieve data from two or more tables" , "folder":"M2/SQL02"},
                 {"module": "02", "no": 3, "date": "Jun 03 2021", "coverage":"Summary queries" , "folder":"M2/SQL03"},
-                {"module": "02", "no": 4, "date": "Jun 04 2021", "coverage":"Insert, update and delete data" , "folder":"M2/SQL04"}
+                {"module": "02", "no": 4, "date": "Jun 04 2021", "coverage":"Insert, update and delete data" , "folder":"M2/SQL04"},
+                {"module": "02", "no": 5, "date": "Jun 04 2021", "coverage":"Data types" , "folder":"M2/SQL05"}
         ]
     }
     
