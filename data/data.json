@@ -23,7 +23,8 @@
                 {"module": "02", "no": 6, "date": "Jun 04 2021", "coverage":"Preparatory: Section 1 to 3" , "folder":"M2/SQLMock01"},
                 {"module": "02", "no": 7, "date": "Jun 05 2021", "coverage":"Preparatory: Section 1 to 3" , "folder":"M2/SQLMock02"},
                 {"module": "02", "no": 8, "date": "Jun 19 2021", "coverage":"Working with Views" , "folder":"M2/SQL08"},
-                {"module": "03", "no": 1, "date": "Jun 19 2021", "coverage":"Variables, Operators, Expression" , "folder":"M3/CS01"}
+                {"module": "03", "no": 1, "date": "Jun 19 2021", "coverage":"Variables, Operators, Expression" , "folder":"M3/CS01"},
+                {"module": "03", "no": 2, "date": "Jun 20 2021", "coverage":"Methods and scopes" , "folder":"M3/CS01"}
         ]
     }
     
