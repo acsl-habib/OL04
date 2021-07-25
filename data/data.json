@@ -33,7 +33,8 @@
                 {"module": "03", "no": 5, "date": "Jun 23 2021", "coverage":"Preparatory: Whole syllabus" , "folder":"M3/CSMock01"},
                 {"module": "03", "no": 6, "date": "Jul 05 2021", "coverage":"Values and reference" , "folder":"M3/CS06"},
                 {"module": "03", "no": 7, "date": "Jul 08 2021", "coverage":"Enums and structures" , "folder":"M3/CS07"},
-                {"module": "03", "no": 8, "date": "Jul 08 2021", "coverage":"Arrays" , "folder":"M3/CS08"}
+                {"module": "03", "no": 8, "date": "Jul 08 2021", "coverage":"Arrays" , "folder":"M3/CS08"},
+                {"module": "03", "no": 9, "date": "Jul 25 2021", "coverage":"Properties to access fields" , "folder":"M3/CS10"}
                 
         ]
     }
