@@ -34,7 +34,8 @@
                 {"module": "03", "no": 6, "date": "Jul 05 2021", "coverage":"Values and reference" , "folder":"M3/CS06"},
                 {"module": "03", "no": 7, "date": "Jul 08 2021", "coverage":"Enums and structures" , "folder":"M3/CS07"},
                 {"module": "03", "no": 8, "date": "Jul 08 2021", "coverage":"Arrays" , "folder":"M3/CS08"},
-                {"module": "03", "no": 9, "date": "Jul 25 2021", "coverage":"Properties to access fields" , "folder":"M3/CS10"}
+                {"module": "03", "no": 9, "date": "Jul 25 2021", "coverage":"Properties to access fields" , "folder":"M3/CS10"},
+                {"module": "03", "no": 10, "date": "Jul 26 2021", "coverage":"Generics" , "folder":"M3/CS11"}
                 
         ]
     }
