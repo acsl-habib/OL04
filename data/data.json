@@ -39,7 +39,11 @@
                 {"module": "03", "no": 11, "date": "Jul 27 2021", "coverage":"Application logic and events" , "folder":"M3/CS12"},
                 {"module": "03", "no": 12, "date": "Jul 27 2021", "coverage":"Properties" , "folder":"M3/CS13"},
                 {"module": "03", "no": 13, "date": "Jul 28 2021", "coverage":"Preparatory" , "folder":"M3/CS14"},
-                {"module": "03", "no": 14, "date": "Jul 28 2021", "coverage":"Preparatory: Mid-Monthly" , "folder":"M3/CSMock02"}
+                {"module": "03", "no": 14, "date": "Jul 28 2021", "coverage":"Preparatory: Mid-Monthly" , "folder":"M3/CSMock02"},
+                {"module": "04", "no": 1, "date": "Aug 05 2021", "coverage":"Getting started with HTML5" , "folder":"M4/HTML_CSS_JS01"},
+                {"module": "04", "no": 2, "date": "Aug 05 2021", "coverage":"Getting started with JavaScript" , "folder":"M4/HTML_CSS_JS02"},
+                {"module": "04", "no": 3, "date": "Aug 05 2021", "coverage":"More JavaScript" , "folder":"M4/HTML_CSS_JS03"}
+                
                 
         ]
     }
