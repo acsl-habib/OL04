@@ -51,7 +51,9 @@
                 {"module": "05", "no": 2, "date": "Aug 28 2021", "coverage":"MVC vies" , "folder":"M5/MVC_Quiz_02"},
                 {"module": "05", "no": 3, "date": "Aug 28 2021", "coverage":"Model binding" , "folder":"M5/MVC_Quiz_03"},
                 {"module": "06", "no": 1, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz01"},
-                {"module": "06", "no": 2, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz02"}
+                {"module": "06", "no": 2, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz02"},
+                {"module": "06", "no": 3, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz03"},
+                {"module": "06", "no": 4, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz04"}
                 
                 
         ]
