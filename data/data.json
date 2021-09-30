@@ -53,7 +53,8 @@
                 {"module": "06", "no": 1, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz01"},
                 {"module": "06", "no": 2, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz02"},
                 {"module": "06", "no": 3, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz03"},
-                {"module": "06", "no": 4, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz04"}
+                {"module": "06", "no": 4, "date": "Sep 29 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz04"},
+                {"module": "06", "no": 5, "date": "Sep 30 2021", "coverage":"Preparatory" , "folder":"M6/Core_Quiz05"}
                 
                 
         ]
